@@ -1,0 +1,73 @@
+body {
+}
+
+* {
+    margin: 0px;
+}
+
+.logo {
+    background-color: rgb(169, 169, 169);
+    width: 100%;
+    height: 30px;
+    padding: 30px;
+    display: grid;
+    margin-top: 0px;
+    text-align: center;  
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    width: 100%;
+    padding: 30px;
+    display: grid;
+    margin-top: 0px;
+    background-color: rgb(169, 169, 169);
+ }
+
+.menulinks li ul {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35%;
+    padding-right: 35%;
+    font-family: 'Open Sans', sans-serif;
+}
+button {
+    text-decoration-color: rgb(255, 255, 255)
+}
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: rgb(73, 73, 73);
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+
+.mojezdjecie {
+    background-image: url('4H4A3462.jpg');
+}
+.pudelka {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+    width: 1000px;
+    justify-content: center;
+
+}
+  
